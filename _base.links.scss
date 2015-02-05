@@ -8,7 +8,8 @@ a {
 
   color: $link-color;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $link-color-hover;
   }
 }
